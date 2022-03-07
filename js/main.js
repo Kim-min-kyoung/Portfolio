@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    // $(".loadingCover").delay(3000).fadeOut();
     $(".coverpage").on("mousewheel DOMMouseScroll",function(e){
         var evt = e.originalEvent;
         delta = 0;
